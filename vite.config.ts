@@ -4,7 +4,9 @@ export default defineConfig({
 	staged: {
 		"*": "vp check --fix",
 	},
-	fmt: {},
+	fmt: {
+		useTabs: true,
+	},
 	lint: {
 		options: {
 			typeAware: true,
